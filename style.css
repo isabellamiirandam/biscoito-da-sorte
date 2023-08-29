@@ -46,6 +46,32 @@ p {
   color: #34355b;
 }
 
+.card img {
+  animation-duration: 0.5s;
+  animation-name: shake;
+}
+
+@keyframes shake {
+  0% {
+    margin-left: 0;
+    rotate: 0;
+  }
+  25% {
+    margin-left: 0.9rem;
+    rotate: 15deg;
+  }
+  50% {
+    margin-left: 0;
+  }
+  75% {
+    margin-left: -0.9rem;
+    rotate: -15deg;
+  }
+  100% {
+    margin-left: 0;
+  }
+}
+
 .luck-main {
   padding: 4.8rem 6.4rem 4.8rem 6.4rem;
   margin: 0 auto;
@@ -82,7 +108,23 @@ p {
   font-weight: normal;
   color: #000;
 
+  background-color: #e4edf1;
+  box-shadow: 2px 2px 2px 0px rgba(85, 85, 85, 0.5);
+  padding: 1rem;
+
   margin-top: 2.7rem;
+
+  animation-duration: 4s;
+  animation-name: up;
+}
+
+@keyframes up {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 .message h1,
