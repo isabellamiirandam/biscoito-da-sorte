@@ -70,3 +70,22 @@ p {
   justify-content: center;
   text-align: center;
 }
+
+.message h1 {
+  font-family: "Montserrat", sem serifa;
+  font-weight: bold;
+  color: #34355b;
+}
+
+.message p {
+  font-family: "Dancing Script", cursivo;
+  font-weight: normal;
+  color: #000;
+
+  margin-top: 2.7rem;
+}
+
+.message h1,
+p {
+  font-size: 2.4rem;
+}
