@@ -47,8 +47,9 @@ p {
 }
 
 .card img {
-  animation-duration: 0.5s;
+  animation-duration: 0.4s;
   animation-name: shake;
+  animation-iteration-count: 4;
 }
 
 @keyframes shake {
