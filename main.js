@@ -1,7 +1,13 @@
-function handleClick() {
-  const home = document.querySelector('.home')
+// Variáveis
+let home = document.querySelector('.home')
+let luck = document.querySelector('.luck')
 
-  document.querySelector('.home').classList.add('hide')
-  document.querySelector('.luck').classList.remove('hide')
+
+// Funções
+function handleClick() {
+
+
+  home.classList.add('hide')
+  luck.classList.remove('hide')
 }
 
