@@ -1,5 +1,7 @@
 function handleClick() {
   const home = document.querySelector('.home')
 
-  console.log(home)
+  document.querySelector('.home').classList.add('hide')
+  document.querySelector('.luck').classList.remove('hide')
 }
+
