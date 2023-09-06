@@ -13,7 +13,7 @@ body {
 
   display: grid;
   place-items: center;
-  height: 160vh;
+  height: 100vh;
 }
 
 .home-main {
