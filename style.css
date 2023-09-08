@@ -13,7 +13,7 @@ body {
 
   display: grid;
   place-items: center;
-  height: 100vh;
+  height: 150vh;
 }
 
 .home-main {
@@ -46,7 +46,7 @@ p {
   color: #34355b;
 }
 
-.card img {
+.card img:hover {
   animation-duration: 0.4s;
   animation-name: shake;
   animation-iteration-count: 4;
@@ -122,9 +122,11 @@ p {
 @keyframes up {
   0% {
     opacity: 0;
+    transform: scale(0.2) translateY(220px);
   }
   100% {
     opacity: 1;
+    transform: scale(1) translateY(0);
   }
 }
 
