@@ -22,7 +22,7 @@
           <h1>Qual é a sua sorte de hoje?</h1>
           <p>Abra o biscoito e descubra!</p>
           <img
-            onclick="handleClick()"
+            onclick="onGeneratePhraseButtonClick()"
             src="assets/fortune-cookie.png"
             alt="Desenho de um biscoito da sorte"
           />
@@ -34,20 +34,15 @@
       <main class="luck-main">
         <div class="message">
           <h1>Aqui está a sua sorte de hoje:</h1>
-          <p class="first-message">
-            Se alguém está tão cansado que não possa te dar um sorriso,
-            deixa-lhe o teu.
-          </p>
-          <p class="second-message">
-            As pessoas costumam dizer que a motivação não dura sempre. Bem, nem
-            o efeito do banho, por isso recomenda-se diariamente.
-          </p>
+          <p id="random-phrase"></p>
 
           <img
             src="assets/opened-cookie.png"
             alt="Desenho de um biscoito da sorte aberto"
           />
-          <button onclick="reloadingPage()">Abrir outro biscoito</button>
+          <button onclick="onReopenCookieButtonClick()">
+            Abrir outro biscoito
+          </button>
         </div>
       </main>
     </div>
